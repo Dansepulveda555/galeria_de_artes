@@ -1,0 +1,252 @@
+body {
+    background-image: url('img/fondo.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-color: rgb(3, 3, 55);
+    color: gainsboro;
+}
+section,
+#carouselExampleCaptions {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px 20px;
+}
+
+#introduccion p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(3, 0, 0, 0.221);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    z-index: -1;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    font-family: barlow;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #ccc;
+}
+
+h5 {
+    background-color: #2020205d;
+    text-align: center;
+    color: #ffffff;
+}
+
+#introduccion {
+    text-align: center;
+}
+
+p {
+    background-color: rgba(31, 31, 31, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 100;
+    text-align: justify;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 25px;
+    padding-left: 40px;
+}
+
+#direccion {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+#telefono {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+#parrafo_fondo {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    position: absolute;
+    top: 850px;
+    left: 5px;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#navbar {
+    text-align: center;
+    color: rgb(0, 78, 130);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#obras {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#obras:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    color: rgb(0, 78, 130);
+}
+
+a {
+    color: rgb(215, 151, 0);
+}
+
+html {
+    color: rgb(13, 189, 186);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+#carouselExampleCaptions {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#validationDefault01 {
+    background-color: rgba(2, 35, 55, 0.182);
+    color: aliceblue;
+}
+
+#validationDefault02 {
+    background-color: rgba(2, 35, 55, 0.182);
+    color: aliceblue;
+}
+
+#validationDefault03 {
+    background-color: rgba(2, 35, 55, 0.182);
+    color: aliceblue;
+}
+
+#validationDefault04 {
+    background-color: rgba(2, 35, 55, 0.182);
+    color: aliceblue;
+}
+
+#validationDefaultUsername {
+    background-color: rgba(2, 35, 55, 0.182);
+    color: aliceblue;
+}
+
+#validationDefault05 {
+    background-color: rgba(2, 35, 55, 0.182);
+    color: aliceblue;
+}
+
+:root {
+    --color-primary: #d79700;
+    --color-bg-dark: rgba(0, 0, 0, 0.377);
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #ffffff84, #f0f0f0b5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.114);
+}
+
+.carousel-caption-bg {
+    background-color: rgba(63, 61, 61, 0.657);
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.section-intro {
+    background-color: #f9f9f914;
+    padding: 2rem;
+    border-left: 5px solid #cccccc14;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-light {
+    background-color: #eee !important;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.card-text{
+    color: #070707;
+    text-align: justify;
+    font-size: 15px;
+    left: 3px;
+}
